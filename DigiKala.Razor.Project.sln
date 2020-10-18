@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiKala.Razor.Data", "DigiKala.Razor.Data\DigiKala.Razor.Data.csproj", "{9E7C44CC-CE82-4927-85D6-5DC65C7455F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiKala.Razor.Common", "DigiKala.Razor.Common\DigiKala.Razor.Common.csproj", "{00F61981-5786-4CA8-AFEA-D6CABA71F391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiKala.Razor.Domain", "DigiKala.Razor.Domain\DigiKala.Razor.Domain.csproj", "{AFCE2521-E6CF-4150-A744-9ED571E5F16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiKala.Razor.Services", "DigiKala.Razor.Services\DigiKala.Razor.Services.csproj", "{28B841DE-2B1E-4270-A0EB-08CBD3ABAAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiKala.Razor.Presentations", "DigiKala.Razor.Presentations\DigiKala.Razor.Presentations.csproj", "{88169FF6-50B1-4C85-9A8A-1A210492D22C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7C44CC-CE82-4927-85D6-5DC65C7455F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7C44CC-CE82-4927-85D6-5DC65C7455F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7C44CC-CE82-4927-85D6-5DC65C7455F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7C44CC-CE82-4927-85D6-5DC65C7455F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F61981-5786-4CA8-AFEA-D6CABA71F391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F61981-5786-4CA8-AFEA-D6CABA71F391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F61981-5786-4CA8-AFEA-D6CABA71F391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F61981-5786-4CA8-AFEA-D6CABA71F391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCE2521-E6CF-4150-A744-9ED571E5F16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCE2521-E6CF-4150-A744-9ED571E5F16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCE2521-E6CF-4150-A744-9ED571E5F16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCE2521-E6CF-4150-A744-9ED571E5F16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B841DE-2B1E-4270-A0EB-08CBD3ABAAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B841DE-2B1E-4270-A0EB-08CBD3ABAAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B841DE-2B1E-4270-A0EB-08CBD3ABAAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B841DE-2B1E-4270-A0EB-08CBD3ABAAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88169FF6-50B1-4C85-9A8A-1A210492D22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88169FF6-50B1-4C85-9A8A-1A210492D22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88169FF6-50B1-4C85-9A8A-1A210492D22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88169FF6-50B1-4C85-9A8A-1A210492D22C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0983BE8B-14B9-4F12-AC96-5006FD477E4B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+.vs
+DigiKala.Razor.Common/bin
+DigiKala.Razor.Common/obj
+DigiKala.Razor.Data/bin
+DigiKala.Razor.Data/obj
+DigiKala.Razor.Presentation/bin
+DigiKala.Razor.Presentation/obj
+DigiKala.Razor.Domain/bin
+DigiKala.Razor.Domain/obj
+DigiKala.Razor.Services/bin
+DigiKala.Razor.Services/obj

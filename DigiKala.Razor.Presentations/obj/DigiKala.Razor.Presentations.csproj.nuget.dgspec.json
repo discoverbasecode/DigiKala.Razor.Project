@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Presentations\\DigiKala.Razor.Presentations.csproj": {}
+  },
+  "projects": {
+    "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Common\\DigiKala.Razor.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Common\\DigiKala.Razor.Common.csproj",
+        "projectName": "DigiKala.Razor.Common",
+        "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Common\\DigiKala.Razor.Common.csproj",
+        "packagesPath": "C:\\Users\\DiscoverBaseCode\\.nuget\\packages\\",
+        "outputPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DiscoverBaseCode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Kavenegar.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MD.PersianDateTime.Core": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj",
+        "projectName": "DigiKala.Razor.Data",
+        "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj",
+        "packagesPath": "C:\\Users\\DiscoverBaseCode\\.nuget\\packages\\",
+        "outputPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DiscoverBaseCode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Domain\\DigiKala.Razor.Domain.csproj": {
+                "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Domain\\DigiKala.Razor.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Domain\\DigiKala.Razor.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Domain\\DigiKala.Razor.Domain.csproj",
+        "projectName": "DigiKala.Razor.Domain",
+        "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Domain\\DigiKala.Razor.Domain.csproj",
+        "packagesPath": "C:\\Users\\DiscoverBaseCode\\.nuget\\packages\\",
+        "outputPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DiscoverBaseCode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Presentations\\DigiKala.Razor.Presentations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Presentations\\DigiKala.Razor.Presentations.csproj",
+        "projectName": "DigiKala.Razor.Presentations",
+        "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Presentations\\DigiKala.Razor.Presentations.csproj",
+        "packagesPath": "C:\\Users\\DiscoverBaseCode\\.nuget\\packages\\",
+        "outputPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Presentations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DiscoverBaseCode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj": {
+                "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj"
+              },
+              "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Services\\DigiKala.Razor.Services.csproj": {
+                "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Services\\DigiKala.Razor.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Services\\DigiKala.Razor.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Services\\DigiKala.Razor.Services.csproj",
+        "projectName": "DigiKala.Razor.Services",
+        "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Services\\DigiKala.Razor.Services.csproj",
+        "packagesPath": "C:\\Users\\DiscoverBaseCode\\.nuget\\packages\\",
+        "outputPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DiscoverBaseCode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Common\\DigiKala.Razor.Common.csproj": {
+                "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Common\\DigiKala.Razor.Common.csproj"
+              },
+              "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj": {
+                "projectPath": "L:\\All Project Me\\Asp.netCore\\DigiKala Razor\\DigiKala.Razor.Project\\DigiKala.Razor.Data\\DigiKala.Razor.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
