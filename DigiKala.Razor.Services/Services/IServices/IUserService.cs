@@ -4,5 +4,6 @@
     {
         bool ExistPermission(int permissionId, int roleId);
         int GetUserRole(string userName);
+        string GetUserRoleName(string userName);
     }
 }

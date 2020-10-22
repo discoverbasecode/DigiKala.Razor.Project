@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using DigiKala.Razor.Data.DataBaseContext;
 using DigiKala.Razor.Services.Services.IServices;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigiKala.Razor.Services.Services
 {
@@ -20,5 +21,9 @@ namespace DigiKala.Razor.Services.Services
             return _context.Users.FirstOrDefault(u => u.Mobile != null && u.Mobile == userName).RoleId;
         }
 
+        public string GetUserRoleName(string userName)
+        {
+            return _context.Users.Include(u=>u.Role).FirstOrDefault(u => u.Mobile != null && u.Mobile == userName).Role.Name;
+        }
     }
 }

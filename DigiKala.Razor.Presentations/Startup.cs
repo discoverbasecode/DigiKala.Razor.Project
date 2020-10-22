@@ -2,6 +2,7 @@ using System;
 using DigiKala.Common.SenderHelper;
 using DigiKala.Razor.Data.DataBaseContext;
 using DigiKala.Razor.Services.Infrastructure;
+using DigiKala.Razor.Services.ScopeHelper;
 using DigiKala.Razor.Services.Services;
 using DigiKala.Razor.Services.Services.IServices;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NToastNotify;
 
 namespace DigiKala.Razor.Presentations
 {
@@ -23,6 +25,29 @@ namespace DigiKala.Razor.Presentations
         public void ConfigureServices(IServiceCollection services)
         {
             #region Services-Common
+            services.AddRazorPages();
+            services.AddRazorPages().AddNToastNotifyToastr(new ToastrOptions()
+            {
+                PositionClass = ToastPositions.TopRight,
+                ProgressBar = false,
+                CloseButton = true,
+                NewestOnTop = false,
+                PreventDuplicates = false,
+                ShowDuration = 1000,
+                HideDuration = 10000,
+                TimeOut = 5000,
+                ExtendedTimeOut = 1000,
+                Debug = false,
+                ShowEasing = "swing",
+                HideEasing = "linear",
+                ShowMethod = "fadeIn",
+                HideMethod = "fadeOut",
+            }, new NToastNotifyOption()
+            {
+                DefaultSuccessMessage = "Bienvenido a CIT",
+                DefaultSuccessTitle = "|CIT|"
+            });
+            services.AddRazorPages().AddNToastNotifyToastr();
             services.AddRazorPages().AddRazorRuntimeCompilation();
             #endregion
 
@@ -50,6 +75,7 @@ namespace DigiKala.Razor.Presentations
 
             #region Services-DIOC-Scoped-Transient-Singleton
             services.AddScoped(typeof(SmsHelper));
+            services.AddScoped(typeof(PanelLayOutScope));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAccountsService, AccountsService>();
@@ -68,15 +94,12 @@ namespace DigiKala.Razor.Presentations
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
-
             app.UseAuthentication();
+            app.UseRouting();
+            app.UseAuthorization();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
+            app.UseNToastNotify();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();

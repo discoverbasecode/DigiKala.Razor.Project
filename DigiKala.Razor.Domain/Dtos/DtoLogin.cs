@@ -17,5 +17,8 @@ namespace DigiKala.Razor.Domain.Dtos
         [MinLength(4, ErrorMessage = "مقدار {0} نباید کم تر از {1} کاراکتر باشد")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+     
+        [Display(Name = "مرا به خاطر بسپار")]
+        public bool RememberMe { get; set; }
     }
 }

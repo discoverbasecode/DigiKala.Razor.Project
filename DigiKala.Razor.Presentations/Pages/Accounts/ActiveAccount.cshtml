@@ -1,0 +1,39 @@
+﻿@page
+@model DigiKala.Razor.Presentations.Pages.Accounts.ActiveAccountModel
+@{
+    ViewData["Title"] = "فعالسازی حساب کاربری";
+    Layout = "Shared/_AccountsLayout";
+}
+
+
+<div class="card px-4 py-2 box-shadow-2">
+    @if (Model.SuccessMessage != null)
+    {
+        <div class="alert alert-light alert-dismissible fade show" role="alert">
+            @Model.SuccessMessage
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    }
+
+    <div class="card-header text-center">
+        <img src="~/img/logos/logo-color-big.png" alt="company-logo" class="mb-3" width="80">
+        <h4 class="text-uppercase text-bold-400 grey darken-1">فعالسازی حساب کاربری</h4>
+    </div>
+    <div class="card-body">
+        <div class="card-block mx-auto">
+            <form method="post" asp-page="ActiveAccount">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control form-control-sm" asp-for="@Model.DtoActivate.ActiveCode" placeholder="کد فعالسازی">
+                        <span asp-validation-for="@Model.DtoActivate.ActiveCode" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-danger px-4 py-1 text-uppercase white  box-shadow-2 border-0"> فعالسازی حساب</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

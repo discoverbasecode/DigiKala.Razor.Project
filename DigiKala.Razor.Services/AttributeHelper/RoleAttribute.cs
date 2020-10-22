@@ -10,6 +10,10 @@ namespace DigiKala.Razor.Services.AttributeHelper
     {
         private readonly int _permessionId;
         private IUserService _userService;
+        public RoleAttribute(int permessionId)
+        {
+            _permessionId = permessionId;
+        }
         public RoleAttribute(int permessionId, IUserService userService)
         {
             _permessionId = permessionId;
